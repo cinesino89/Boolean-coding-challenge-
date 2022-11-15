@@ -1,80 +1,79 @@
 
-body{
+body {
   background-image: url(background.jpg);
   background-repeat: no-repeat;
   background-position: 0 0;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-
 }
 
-.container{
+.container {
   background: rgba(0,0,0,0.5);
   height: 650px;
   width: 950px;
   text-align: center;
   border-radius: 15px;
   margin: 30px auto;
-
-
 }
 
-img{
+img {
   width: 225px;
   height: 105x;
-  align: center;
+  text-align: center;
   z-index: 10;
-
 }
 
-header{
+header {
   text-align: center;
-
 }
 
 h1{
   color: #66FF00;
 }
 
-.riga{
+.riga {
   background-color: #66FF00;
   height: 30px;
   width: 850px;
   text-align: center;
   margin: 15px auto;
   padding-top: 7px;
-
 }
-.kik{
+
+.inline_display {
   display: inline;
 }
-.label{
+
+.label {
   color: white;
   font-size: 18px;
   font-weight: bold;
 }
 
-.content{
-text-align: left;
-width: 850px;
-margin: 15px auto;
+.content {
+  text-align: left;
+  width: 850px;
+  margin: 15px auto;
 }
-.indici{
+
+.text {
   color: white;
   font-size: 16px;
-  font-weight: 200px;
-  font-family: serif;
+  font-weight: 400;
+  font-family: ui-monospace;
   margin-top: 5px;
 }
-.yellow-block{
+
+.yellow-block { 
   width: 300px;
   height: 30px;
   background-color: yellow;
   border-radius: 5px;
   margin-top: 2px;
 }
-.green-block{
+
+.green-block {
   width: 550px;
   height: 30px;
   background-color: green;
@@ -82,11 +81,14 @@ margin: 15px auto;
   margin-top: 2px;
 
 }
-.red-block{
+.red-block {
   width: 150px;
   height: 30px;
   background-color: red;
   border-radius: 5px;
   margin-top: 2px;
+}
 
+.wrapper {
+  margin-top: 15px;
 }
